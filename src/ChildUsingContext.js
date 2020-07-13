@@ -1,9 +1,9 @@
 import React from 'react';
 import {useContext} from 'react';
-import CCC from './ContextCountCreation.js';
+import ContextCountCreation from './ContextCountCreation.js';
 
 const Counter=()=> {
-  let ContextInfoArray = useContext(CCC);
+  let ContextInfoArray = useContext(ContextCountCreation);
 
   return (
     <div>

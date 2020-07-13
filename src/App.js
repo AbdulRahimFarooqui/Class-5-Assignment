@@ -6,9 +6,9 @@ function App() {
   const ContextInfoArray = useState(0);
   return (
     <div className="App">
-      <ContextCreation.Provider value ={ContextInfoArray}>
+      <ContextCreationForCount.Provider value ={ContextInfoArray}>
         <Parent />
-      </ContextCreation.Provider>
+      </ContextCreationForCount.Provider>
     </div>
   );
 }

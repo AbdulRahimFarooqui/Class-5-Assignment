@@ -1,8 +1,8 @@
 import React, {useReducer} from 'react';
-import Reducer from './ReducerForCount.js';
+import ReducerForCount from './ReducerForCount.js';
 
 const Counter=()=>{
-  let [state, dispatcher] = useReducer(Reducer, 0);
+  let [state, dispatcher] = useReducer(ReducerForCount, 0);
   return (
     <div>
       <h3>This is the Counter Which Uses Reducer</h3>
