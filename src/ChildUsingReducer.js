@@ -1,5 +1,5 @@
 import React, {useReducer} from 'react';
-import Reducer from './CountReducer.js';
+import Reducer from './ReducerForCount.js';
 
 const Counter=()=>{
   let [state, dispatcher] = useReducer(Reducer, 0);
@@ -12,7 +12,8 @@ const Counter=()=>{
       <button onClick={()=> dispatcher(++state)}>
         Minus
       </button>
-      
+      <p> </p>
+      <hr/>
     </div>
   )
 }

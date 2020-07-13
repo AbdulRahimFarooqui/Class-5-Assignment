@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import Parent from './JustAParent';
-import ContextCreation from './ContextCountCreation'
+import Parent from './JustAParent.js';
+import ContextCreation from './ContextCreationForCount.js'
 
 function App() {
   const ContextInfoArray = useState(0);
