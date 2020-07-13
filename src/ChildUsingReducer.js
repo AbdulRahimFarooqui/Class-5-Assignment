@@ -12,7 +12,7 @@ const Counter=()=>{
       <button onClick={()=> dispatcher(++state)}>
         Minus
       </button>
-      <p> </p>
+      <p>This Is The Value Of The Counter Using Reducer {state}</p>
       <hr/>
     </div>
   )
