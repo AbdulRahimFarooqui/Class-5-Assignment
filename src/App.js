@@ -1,13 +1,13 @@
 import React, {useState} from "react";
-import Parent from './JustAParent.js';
-import ContextCreation from './ContextCreationForCount.js'
+import JustAParent from './JustAParent.js';
+import ContextCreationForCount from './ContextCreationForCount.js'
 
 function App() {
   const ContextInfoArray = useState(0);
   return (
     <div className="App">
       <ContextCreationForCount.Provider value ={ContextInfoArray}>
-        <Parent />
+        <JustAParent />
       </ContextCreationForCount.Provider>
     </div>
   );
